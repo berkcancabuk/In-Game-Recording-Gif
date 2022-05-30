@@ -1,0 +1,2163 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'tr' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/berkc/Desktop/Record/Recordig
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60997
+Successfully changed project path to: C:/Users/berkc/Desktop/Record/Recordig
+C:/Users/berkc/Desktop/Record/Recordig
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 90.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/berkc/Desktop/Record/Recordig/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1277
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006775 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 100.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.638 seconds
+Domain Reload Profiling:
+	ReloadAssembly (639ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (481ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (64ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004093 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (957ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (112.1 KB). Loaded Objects now: 3831.
+Memory consumption went from 116.2 MB to 116.1 MB.
+Total: 2.807400 ms (FindLiveObjects: 0.244300 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.377700 ms  DeleteObjects: 0.093600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 736376.130658 seconds.
+  path: Assets/UnityNativeCamera-master/Plugins/NativeCamera/Android/NCCallbackHelper.cs
+  artifactKey: Guid(9fe2b87a98d48404fb37a18bb5215f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityNativeCamera-master/Plugins/NativeCamera/Android/NCCallbackHelper.cs using Guid(9fe2b87a98d48404fb37a18bb5215f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4c25d4331a74e0727975537e92f77a') in 0.020143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityNativeCamera-master/Plugins/NativeCamera/Android
+  artifactKey: Guid(d5a47364b72ed1a42a9f7dc60bcbf35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityNativeCamera-master/Plugins/NativeCamera/Android using Guid(d5a47364b72ed1a42a9f7dc60bcbf35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41079ad96267d4d878777248c61fd01f') in 0.007264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UnityNativeCamera-master/Plugins
+  artifactKey: Guid(4b3220d76ab685149aefa67134758726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityNativeCamera-master/Plugins using Guid(4b3220d76ab685149aefa67134758726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ae81f8a2ed90b129346f7ca3493f78') in 0.007317 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006060 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Domain Reload Profiling:
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (78.9 KB). Loaded Objects now: 3829.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 2.342700 ms (FindLiveObjects: 0.196000 ms CreateObjectMapping: 0.084100 ms MarkObjects: 1.994900 ms  DeleteObjects: 0.066500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005351 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Domain Reload Profiling:
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.0 KB). Loaded Objects now: 3833.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 2.867800 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.082600 ms MarkObjects: 2.471800 ms  DeleteObjects: 0.085600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004862 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (855ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (658ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.0 KB). Loaded Objects now: 3836.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 2.311400 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.082700 ms MarkObjects: 1.950400 ms  DeleteObjects: 0.068100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004026 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Domain Reload Profiling:
+	ReloadAssembly (813ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (605ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.1 KB). Loaded Objects now: 3839.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 2.482000 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.080400 ms MarkObjects: 2.111500 ms  DeleteObjects: 0.078800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004038 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Domain Reload Profiling:
+	ReloadAssembly (785ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.0 KB). Loaded Objects now: 3842.
+Memory consumption went from 116.0 MB to 116.0 MB.
+Total: 2.857800 ms (FindLiveObjects: 0.272600 ms CreateObjectMapping: 0.117300 ms MarkObjects: 2.382200 ms  DeleteObjects: 0.083800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004677 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.0 KB). Loaded Objects now: 3845.
+Memory consumption went from 116.0 MB to 116.0 MB.
+Total: 2.890400 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.543400 ms  DeleteObjects: 0.073100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003769 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (798ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (599ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.0 KB). Loaded Objects now: 3848.
+Memory consumption went from 116.0 MB to 116.0 MB.
+Total: 2.519300 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.119700 ms MarkObjects: 2.113800 ms  DeleteObjects: 0.067000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004244 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (599ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.0 KB). Loaded Objects now: 3851.
+Memory consumption went from 116.1 MB to 116.0 MB.
+Total: 2.310300 ms (FindLiveObjects: 0.200300 ms CreateObjectMapping: 0.082000 ms MarkObjects: 1.941700 ms  DeleteObjects: 0.085300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004300 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.0 KB). Loaded Objects now: 3854.
+Memory consumption went from 116.1 MB to 116.0 MB.
+Total: 2.303400 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.094800 ms MarkObjects: 1.932400 ms  DeleteObjects: 0.074200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003798 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (596ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.1 KB). Loaded Objects now: 3857.
+Memory consumption went from 116.1 MB to 116.0 MB.
+Total: 2.967300 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.102800 ms MarkObjects: 2.568600 ms  DeleteObjects: 0.098700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003147 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Domain Reload Profiling:
+	ReloadAssembly (787ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.3 KB). Loaded Objects now: 3860.
+Memory consumption went from 116.1 MB to 116.0 MB.
+Total: 2.531300 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.084500 ms MarkObjects: 2.093300 ms  DeleteObjects: 0.098700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003934 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (758ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 3863.
+Memory consumption went from 118.2 MB to 117.4 MB.
+Total: 2.709900 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.077200 ms MarkObjects: 2.119100 ms  DeleteObjects: 0.303000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004862 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (781ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 3866.
+Memory consumption went from 118.2 MB to 117.5 MB.
+Total: 2.869500 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.095900 ms MarkObjects: 2.210300 ms  DeleteObjects: 0.287200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003361 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 3869.
+Memory consumption went from 118.2 MB to 117.5 MB.
+Total: 3.463200 ms (FindLiveObjects: 0.334900 ms CreateObjectMapping: 0.120100 ms MarkObjects: 2.700200 ms  DeleteObjects: 0.306200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003505 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 3872.
+Memory consumption went from 118.2 MB to 117.5 MB.
+Total: 2.642900 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.084500 ms MarkObjects: 2.041500 ms  DeleteObjects: 0.305400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004375 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (604ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 3875.
+Memory consumption went from 118.2 MB to 117.5 MB.
+Total: 2.765200 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.076900 ms MarkObjects: 2.106000 ms  DeleteObjects: 0.374600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003264 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Domain Reload Profiling:
+	ReloadAssembly (772ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (586ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 3872.
+Memory consumption went from 118.0 MB to 117.3 MB.
+Total: 2.909500 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.077000 ms MarkObjects: 2.236900 ms  DeleteObjects: 0.402700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003320 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Domain Reload Profiling:
+	ReloadAssembly (793ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3876.
+Memory consumption went from 118.0 MB to 117.3 MB.
+Total: 3.094800 ms (FindLiveObjects: 0.289900 ms CreateObjectMapping: 0.101800 ms MarkObjects: 2.398200 ms  DeleteObjects: 0.303800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2375.877402 seconds.
+  path: Assets/Scripts/TakePhoto.cs
+  artifactKey: Guid(0af4170e7d1d62540810d0bc571e948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakePhoto.cs using Guid(0af4170e7d1d62540810d0bc571e948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d467cfb254cbca7ad610997cabfe9c') in 0.006798 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003952 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (799ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3879.
+Memory consumption went from 118.0 MB to 117.3 MB.
+Total: 2.597100 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.077400 ms MarkObjects: 2.028200 ms  DeleteObjects: 0.286900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003884 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3882.
+Memory consumption went from 118.0 MB to 117.3 MB.
+Total: 2.749000 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.159200 ms  DeleteObjects: 0.286900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003410 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (789ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (615ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3885.
+Memory consumption went from 118.1 MB to 117.3 MB.
+Total: 2.628100 ms (FindLiveObjects: 0.217000 ms CreateObjectMapping: 0.081100 ms MarkObjects: 1.998300 ms  DeleteObjects: 0.330500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122.254736 seconds.
+  path: Assets/screenshots/screen_2550x3300_2022-05-30_13-27-32.png
+  artifactKey: Guid(b3718a21938ace84ab38ec6c85223e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/screenshots/screen_2550x3300_2022-05-30_13-27-32.png using Guid(b3718a21938ace84ab38ec6c85223e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a492c401ea455e99661fe03571a424d6') in 0.084564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/screenshots/screen_2550x3300_2022-05-30_13-27-33.png
+  artifactKey: Guid(8c337eb264e473a4f915627f337ccdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/screenshots/screen_2550x3300_2022-05-30_13-27-33.png using Guid(8c337eb264e473a4f915627f337ccdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92115cb44faf0664fd698c30e082d843') in 0.019265 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004160 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (602ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3890.
+Memory consumption went from 118.1 MB to 117.4 MB.
+Total: 2.859900 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.079400 ms MarkObjects: 2.221900 ms  DeleteObjects: 0.347000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.497765 seconds.
+  path: Assets/screenshots/screen_2550x3300_2022-05-30_13-27-50.png
+  artifactKey: Guid(3b37cc2bdc044614faa777e5010d167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/screenshots/screen_2550x3300_2022-05-30_13-27-50.png using Guid(3b37cc2bdc044614faa777e5010d167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a40a083914ac5b6411e675bd73fc0d') in 0.084307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/screenshots/screen_2550x3300_2022-05-30_13-27-54.png
+  artifactKey: Guid(76e63ec5b8577944e885d2cd72049e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/screenshots/screen_2550x3300_2022-05-30_13-27-54.png using Guid(76e63ec5b8577944e885d2cd72049e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50aec2b6f4ed615aeee32df037369b9') in 0.016380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/screenshots/screen_2550x3300_2022-05-30_13-27-52.png
+  artifactKey: Guid(c35a2a492b07ae04ab1b2ffdabc559a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/screenshots/screen_2550x3300_2022-05-30_13-27-52.png using Guid(c35a2a492b07ae04ab1b2ffdabc559a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7df99d40fac71ebef4324f61ee8fed') in 0.013881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/screenshots/screen_2550x3300_2022-05-30_13-27-55.png
+  artifactKey: Guid(d97b0dec2eef69248b8a68e97fd88f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/screenshots/screen_2550x3300_2022-05-30_13-27-55.png using Guid(d97b0dec2eef69248b8a68e97fd88f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e0509fd3c3d3c5b346a23bacadefd6') in 0.014813 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004351 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (800ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3893.
+Memory consumption went from 118.1 MB to 117.4 MB.
+Total: 2.992700 ms (FindLiveObjects: 0.220700 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.393400 ms  DeleteObjects: 0.296500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003538 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (867ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (666ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3896.
+Memory consumption went from 118.1 MB to 117.4 MB.
+Total: 3.218800 ms (FindLiveObjects: 0.229500 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.575500 ms  DeleteObjects: 0.324000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004552 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (691ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3899.
+Memory consumption went from 118.1 MB to 117.4 MB.
+Total: 2.941900 ms (FindLiveObjects: 0.325200 ms CreateObjectMapping: 0.108500 ms MarkObjects: 2.125900 ms  DeleteObjects: 0.380900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004736 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Domain Reload Profiling:
+	ReloadAssembly (865ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3902.
+Memory consumption went from 118.1 MB to 117.4 MB.
+Total: 2.661000 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.068100 ms  DeleteObjects: 0.296200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003708 seconds.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\berkc\Desktop\Record\Recordig\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Runtime' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/NativeCamera.Runtime.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Assembly with name 'NativeCamera.Editor' already exists (Assets/UnityNativeCamera-master/Plugins/NativeCamera/Editor/NativeCamera.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Domain Reload Profiling:
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (663ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3905.
+Memory consumption went from 118.1 MB to 117.4 MB.
+Total: 2.988900 ms (FindLiveObjects: 0.216500 ms CreateObjectMapping: 0.083500 ms MarkObjects: 2.402000 ms  DeleteObjects: 0.286100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
