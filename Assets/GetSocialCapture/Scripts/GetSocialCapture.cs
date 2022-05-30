@@ -12,23 +12,23 @@ using UnityEngine.Networking;
 namespace GetSocialSdk.Capture.Scripts
 {
     
-    [RequireComponent(typeof(Camera)), DisallowMultipleComponent]
+     [RequireComponent(typeof(Camera)), DisallowMultipleComponent]
     public class GetSocialCapture : MonoBehaviour
     {
         IEnumerator isVideoRecordFinish()
         {
             yield return new WaitForSeconds(7f);
-            allVideos = Resources.LoadAll<Texture2D>("vid"); // resources klasörünün vid adlı dosyasının içindekilerinin hepsini yüklüyoruz
-            videoPlayer.texture= allVideos[videoCountValue]; // videoPlayeri vid dosyasının altındaki ilk klibe eşitliyoruz.
+            allTextures = Resources.LoadAll<Texture2D>("vid"); // resources klasörünün vid adlı dosyasının içindekilerinin hepsini yüklüyoruz
+            textures.texture= allTextures[videoCountValue]; // texturesi vid dosyasının altındaki ilk klibe eşitliyoruz.
             //videoCountValue++;
             StartCoroutine(UploadMultipleFiles());
         }
-        public Texture2D[] allVideos;
-        public RawImage videoPlayer;
+        public Texture2D[] allTextures;
+        public RawImage textures;
         int videoCountValue = 0;
         public GetSocialCapture capture2;
         public GetSocialCapturePreview capturePreview2;
-        public void ActionFinished2()
+        public void ActionFinished2() // burada kayıt ettiğimiz videoyu oynatmaya yarayan fonksiyon
         {
             //capturePreview2.
             capture2.StopCapture();
@@ -40,7 +40,7 @@ namespace GetSocialSdk.Capture.Scripts
 
 
         // start recording if something interesting happens in the game
-        public void RecordAction()
+        public void RecordAction() // burda video kaydını başlatan fonksiyonumuz
         {
             capture.StartCapture();
         }
@@ -112,7 +112,7 @@ namespace GetSocialSdk.Capture.Scripts
         private float _elapsedTime;
         private Recorder _recorder;
 
-        private const string GeneratedContentFolderName = "vid";
+        private const string GeneratedContentFolderName = "vid"; //oluşturulan içerik klasörünün adını veriyoruz benimki Resource klasörü altına vid adlı klasördü
 
         #endregion
 
@@ -221,7 +221,7 @@ namespace GetSocialSdk.Capture.Scripts
             #else
                 resultDirPath = Application.persistentDataPath; 
             #endif
-            resultDirPath += "\\Resources" + Path.DirectorySeparatorChar + GeneratedContentFolderName;
+            resultDirPath += "\\Resources" + Path.DirectorySeparatorChar + GeneratedContentFolderName; // resultDirPath yoluna nereye ulaşacağını veriyoruz 
             if (!Directory.Exists(resultDirPath))
             {
                 Directory.CreateDirectory(resultDirPath);
@@ -232,7 +232,7 @@ namespace GetSocialSdk.Capture.Scripts
         private void InitSession()
         {
             _captureId = Guid.NewGuid().ToString();
-            var fileName = string.Format("result"+ videoCountValue + ".gif", _captureId);
+            var fileName = string.Format("result"+ videoCountValue + ".gif", _captureId); // ".gif" kısmında istediğimiz türde obje yaratmak içni veriyoruz 
             _resultFilePath = GetResultDirectory() + Path.DirectorySeparatorChar + fileName;
             StoreWorker.Instance.Start(ThreadPriority.BelowNormal, maxCapturedFrames);
             //videoCountValue++;
@@ -249,31 +249,30 @@ namespace GetSocialSdk.Capture.Scripts
         #endregion
         IEnumerator UploadMultipleFiles()
         {
-            yield return new WaitForSeconds(2f);
-            print("asd");
-            string[] path = new string[3];                                                      // obviously there are better ways to set up your file list
-            path[0] = "C:/Users/berkc/Desktop/Record/Recordig/Assets/Resources/vid/result0.gif";// Directory.Getfiles()
+            yield return new WaitForSeconds(2f);                                                // 2 saniye bekleme süresini video kayıt etsin diye bekletmek için veriyoruz.
+            string[] path = new string[0];                                                      // path dizinini çekmemize yarar
+            path[0] = "C:/Users/berkc/Desktop/Record/Recordig/Assets/Resources/vid/result0.gif";// Dizinin olduğu konumu path[0] a eşitler 
 
 
 
-            if (!File.Exists(path[0]))                                                      // check the upload file exists else quit with error
+            if (!File.Exists(path[0]))                                                      // yükleme dosyasının var olup olmadığını kontrol edin, aksi takdirde hata döner.
             {
                 Debug.Log("ERROR! Can't locate the file to upload: " + path[0]);
                 yield break;
             }
-            byte[] localFile = File.ReadAllBytes(path[0]);                                  // IMPORTANT: if it does exist read all the file bytes into an array
-            yield return localFile;                                                         // wait until the local file has finished loading
+            byte[] localFile = File.ReadAllBytes(path[0]);                                  // Varsa tüm dosyanın bytelerini bir diziye okutuyoruz
+            yield return localFile;                                                         // yerel dosyanın yüklenmesi bitene kadar bekleyin
 
-            WWWForm form = new WWWForm();                                                   // get a web form ready - used to upload all data
-            form.AddBinaryData("file", localFile, path[0]);                                 // copy/attach the local file data to the form and give the file a name
+            WWWForm form = new WWWForm();                                                   // bir web formu hazırlar - tüm verileri yüklemek için kullanılır
+            form.AddBinaryData("file", localFile, path[0]);                                 // yerel dosya verilerini forma kopyalayın/ekleyin ve dosyaya bir ad verin
 
             UnityWebRequest req = UnityWebRequest.Post("https://drive.google.com/drive/my-drive", form);// url = http://yourserver.com/upload.php
-            yield return req.SendWebRequest();                                              // post the form and call the PHP to manage the server and wait until complete
+            yield return req.SendWebRequest();                                              // formu gönderin ve sunucuyu yönetmek için PHP'yi arayın ve tamamlanana kadar bekleyin
 
-            if (req.isHttpError || req.isNetworkError)                                      // trap and report any errors 
+            if (req.isHttpError || req.isNetworkError)                                      // hata varsa burası dönecektir
                 Debug.Log(req.error);
             else
-                Debug.Log("SUCCESS! File uploaded: " + path[0]);                            // else the file uploaded ok
+                Debug.Log("SUCCESS! File uploaded: " + path[0]);                            // hata yoksa yüklendi başarılı yazısı döndürecektir.
         }
     }
 }    
