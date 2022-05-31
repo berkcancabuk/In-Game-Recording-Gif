@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.IO;
 using GetSocialSdk.Capture.Scripts.Internal.Gif;
@@ -12,44 +12,42 @@ using UnityEngine.Networking;
 namespace GetSocialSdk.Capture.Scripts
 {
     
-     [RequireComponent(typeof(Camera)), DisallowMultipleComponent]
+    [RequireComponent(typeof(Camera)), DisallowMultipleComponent]
     public class GetSocialCapture : MonoBehaviour
     {
-        IEnumerator isVideoRecordFinish()
+        IEnumerator isTextureRecordFinish()
         {
             yield return new WaitForSeconds(7f);
             allTextures = Resources.LoadAll<Texture2D>("vid"); // resources klasörünün vid adlı dosyasının içindekilerinin hepsini yüklüyoruz
-            textures.texture= allTextures[videoCountValue]; // texturesi vid dosyasının altındaki ilk klibe eşitliyoruz.
-            //videoCountValue++;
+            textures.texture= allTextures[textCountValue]; // texturesi vid dosyasının altındaki ilk klibe eşitliyoruz.
+            textCountValue++;
             StartCoroutine(UploadMultipleFiles());
         }
         public Texture2D[] allTextures;
         public RawImage textures;
-        int videoCountValue = 0;
-        public GetSocialCapture capture2;
-        public GetSocialCapturePreview capturePreview2;
-        public void ActionFinished2() // burada kayıt ettiğimiz videoyu oynatmaya yarayan fonksiyon
-        {
-            //capturePreview2.
-            capture2.StopCapture();
-            // show preview
-            capturePreview2.Play();
-            StartCoroutine(isVideoRecordFinish());
-        }
+        int textCountValue = 0;
         public GetSocialCapture capture;
-
+        public GetSocialCapturePreview capturePreview;
 
         // start recording if something interesting happens in the game
         public void RecordAction() // burda video kaydını başlatan fonksiyonumuz
         {
+            //capture2.StopCapture();
+            //capturePreview2.Stop();
+            capturePreview.Stop(); // Görüntü oynatılmasını durdurur
+            capturePreview.GetComponent<RawImage>().texture = null; // verilen texturenin görüntüsünü kaldırır
+            capturePreview._framesToPlay.Clear(); // kayıt edilen frame'i temizler
+            capturePreview._play = true; // tekrar play etmek için true veriyoruz
+            capturePreview._previewInitialized = false; // baştan initialized etmek için false değeri döndürüyoruz.
             capture.StartCapture();
         }
 
         // stop recording
         public void ActionFinished()
         {
-            capture.StopCapture();
-            // generate gif
+            capture.StopCapture(); // kaydı durduruyoruz
+            capturePreview.Play(); // görüntüyü başlatıyoruz
+            StartCoroutine(isTextureRecordFinish());
             capture.GenerateCapture(result =>
             {
                 // use gif, like send it to your friends by using GetSocial Sdk
@@ -232,10 +230,10 @@ namespace GetSocialSdk.Capture.Scripts
         private void InitSession()
         {
             _captureId = Guid.NewGuid().ToString();
-            var fileName = string.Format("result"+ videoCountValue + ".gif", _captureId); // ".gif" kısmında istediğimiz türde obje yaratmak içni veriyoruz 
+            var fileName = string.Format("result"+ textCountValue + ".gif", _captureId); // ".gif" kısmında istediğimiz türde obje yaratmak içni veriyoruz 
             _resultFilePath = GetResultDirectory() + Path.DirectorySeparatorChar + fileName;
             StoreWorker.Instance.Start(ThreadPriority.BelowNormal, maxCapturedFrames);
-            //videoCountValue++;
+            //textCountValue++;
         }
         
         private void CleanUp()
@@ -247,39 +245,36 @@ namespace GetSocialSdk.Capture.Scripts
         }
 
         #endregion
-        IEnumerator UploadMultipleFiles()
+       IEnumerator UploadMultipleFiles()
         {
-            yield return new WaitForSeconds(2f);                                                // 2 saniye bekleme süresini video kayıt etsin diye bekletmek için veriyoruz.
-            string[] path = new string[0];                                                      // path dizinini çekmemize yarar
-            path[0] = "C:/Users/berkc/Desktop/Record/Recordig/Assets/Resources/vid/result0.gif";// Dizinin olduğu konumu path[0] a eşitler 
-
-
-
-            if (!File.Exists(path[0]))                                                      // yükleme dosyasının var olup olmadığını kontrol edin, aksi takdirde hata döner.
+            if (Resources.LoadAll<Texture2D>("vid") != null)
             {
-                Debug.Log("ERROR! Can't locate the file to upload: " + path[0]);
-                yield break;
+                yield return new WaitForSeconds(2f);                                                // 2 saniye bekleme süresini video kayıt etsin diye bekletmek için veriyoruz.
+                string[] path = new string[3];                                                      // path dizinini çekmemize yarar
+                path[0] = "C:/Users/berkc/Desktop/Record/Recordig/Assets/Resources/vid/result0.gif";// Dizinin olduğu konumu path[0] a eşitler 
+
+
+
+                if (!File.Exists(path[0]))                                                      // yükleme dosyasının var olup olmadığını kontrol edin, aksi takdirde hata döner.
+                {
+                    Debug.Log("ERROR! Can't locate the file to upload: " + path[0]);
+                    yield break;
+                }
+                byte[] localFile = File.ReadAllBytes(path[0]);                                  // Varsa tüm dosyanın bytelerini bir diziye okutuyoruz
+                yield return localFile;                                                         // yerel dosyanın yüklenmesi bitene kadar bekleyin
+
+                WWWForm form = new WWWForm();                                                   // bir web formu hazırlar - tüm verileri yüklemek için kullanılır
+                form.AddBinaryData("file", localFile, path[0]);                                 // yerel dosya verilerini forma kopyalayın/ekleyin ve dosyaya bir ad verin
+
+                UnityWebRequest req = UnityWebRequest.Post("https://www.ndgstudio.com.tr/berkcan/StreamingAssets", form);// url = http://yourserver.com/upload.php
+                yield return req.SendWebRequest();                                              // formu gönderin ve sunucuyu yönetmek için PHP'yi arayın ve tamamlanana kadar bekleyin
+
+                if (req.isHttpError || req.isNetworkError)                                      // hata varsa burası dönecektir
+                    Debug.Log(req.error);
+                else
+                    Debug.Log("SUCCESS! File uploaded: " + path[0]);                            // hata yoksa yüklendi başarılı yazısı döndürecektir.
             }
-            byte[] localFile = File.ReadAllBytes(path[0]);                                  // Varsa tüm dosyanın bytelerini bir diziye okutuyoruz
-            yield return localFile;                                                         // yerel dosyanın yüklenmesi bitene kadar bekleyin
-
-            WWWForm form = new WWWForm();                                                   // bir web formu hazırlar - tüm verileri yüklemek için kullanılır
-            form.AddBinaryData("file", localFile, path[0]);                                 // yerel dosya verilerini forma kopyalayın/ekleyin ve dosyaya bir ad verin
-
-            UnityWebRequest req = UnityWebRequest.Post("https://drive.google.com/drive/my-drive", form);// url = http://yourserver.com/upload.php
-            yield return req.SendWebRequest();                                              // formu gönderin ve sunucuyu yönetmek için PHP'yi arayın ve tamamlanana kadar bekleyin
-
-            if (req.isHttpError || req.isNetworkError)                                      // hata varsa burası dönecektir
-                Debug.Log(req.error);
-            else
-                Debug.Log("SUCCESS! File uploaded: " + path[0]);                            // hata yoksa yüklendi başarılı yazısı döndürecektir.
+            
         }
     }
 }    
- 
-       
-    
-
-
-
-
