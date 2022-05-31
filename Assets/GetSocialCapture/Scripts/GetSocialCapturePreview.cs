@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using GetSocialSdk.Capture.Scripts.Internal.Recorder;
 using UnityEngine;
@@ -8,7 +8,6 @@ namespace GetSocialSdk.Capture.Scripts
 {
     public class GetSocialCapturePreview : MonoBehaviour
     {
-
         #region Public fields
 
         /// <summary>
@@ -25,11 +24,11 @@ namespace GetSocialSdk.Capture.Scripts
 
         #region Private fields
 
-        private List<Texture2D> _framesToPlay;
+        public List<Texture2D> _framesToPlay;
         private RawImage _rawImage;
-        private bool _play;
+        public bool _play;
         private float _playbackStartTime;
-        private bool _previewInitialized;
+        public bool _previewInitialized;
 
         #endregion
 
